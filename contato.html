@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Descomplica Consultoria Acadêmica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Envolve a imagem e o texto com uma âncora -->
+            <a href="./index.html" class="logo-link">
+                <img src="./Imagens/logo.png" alt="logomarca" class="logo">
+            </a>
+            <button id="toggle-menu" class="toggle-menu">
+                Menu
+            </button>
+        </div>
+    </header>
+    
+
+    <div class="wrapper">
+        <nav id="side-menu" class="side-menu">
+            <ul class="menu">
+                <h1>Opções</h1>
+                </br>
+                </br>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#perguntas">Perguntas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-content">
+            <section id="contato" class="section">
+                <div class="container">
+                    <h2 class="titulo-contato">Fale Conosco</h2>
+                    <div class="form-container">
+                        <form id="contact-form" action="seu_script_de_formulario.php" method="POST">
+                            <div class="form-row">
+                                <div class="form-group half">
+                                    <input type="text" id="nome" name="nome" placeholder="Digite o seu nome..." required>
+                                    <label for="nome">Nome</label>
+                                </div>
+                                <div class="form-group half">
+                                    <input type="text" id="telefone" name="telefone" placeholder="(00) 0000-00000" required>
+                                    <label for="telefone">Telefone</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Informe um e-mail para contato..." required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="mensagem" name="mensagem"  placeholder="Digite a sua mensagem ou a sua dúvida..." required></textarea>
+                                <label for="mensagem">Mensagem</label>
+                            </div>
+                            <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </section>            
+            
+        </main>
+
+
+    </div>
+
+    <footer id="rodape">
+        <!-- Conteúdo do rodapé igual ao index.html -->
+        <div class="container">
+            <div class="footer-left">
+                <div class="logo-text-container">
+                    <img src="./Imagens/logofim.png" alt="Logo Descomplica Consultoria Acadêmica">
+                </div>
+            </div>
+            <div class="footer-right">
+                <h2>Contato</h2>
+                <p><img src="./Imagens/phone.png" alt="Telefone" class="icon"> Telefone: (31) 99707-7639</p>
+                <p><img src="./Imagens/localização.png" alt="Localização" class="icon"> Belo Horizonte - MG</p>
+                <p><img src="./Imagens/email.png" alt="E-mail" class="icon"> E-mail: contato@descomplica.com</p>
+                <p><a href="link-para-instagram" target="_blank" style="color: inherit; text-decoration: none;"><img src="./Imagens/instagram.png" alt="Instagram" class="icon"> Instagram</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
