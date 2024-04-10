@@ -22,7 +22,7 @@ header {
     margin: 0 auto;
     background-color: #204068;
     color: #fff;
-    padding: 10px 0; /* Reduzido de 20px para 10px */
+    padding: 10px 0; 
     transition: margin-left 0.3s ease;
     z-index: 1000;
 }
@@ -49,6 +49,7 @@ header h1 {
     align-items: center; 
     text-decoration: none; 
     color: inherit; 
+}
 
 .logo-link h1 {
     margin: 0; 
@@ -210,26 +211,26 @@ header .container {
 
 #servicos .container {
     width: 80%;
-    margin: 0 auto; /* Centraliza o container na página */
+    margin: 0 auto; 
     position: relative;
 }
 
 #servicos .lines {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
+    justify-content: center; 
 }
 
 #servicos .line-left,
 #servicos .line-right {
     border-top: 2px solid #EBA327;
     height: 0;
-    width: 20%; /* Define a largura da linha */
+    width: 20%; 
 }
 
 #servicos h2 {
     font-size: 45px;
-    margin: 0 20px; /* Espaçamento entre o texto e as linhas */
+    margin: 0 20px; 
     color: #EBA327;
 }
 
@@ -396,6 +397,7 @@ header .container {
     display: block; 
     margin-top: 10px; 
     text-decoration: underline; 
+}
 
 #avaliacoes .arrow {
     text-align: center;
